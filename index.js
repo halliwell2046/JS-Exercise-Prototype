@@ -115,9 +115,10 @@ function Baby(name, age, favoriteToy) {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  3. 
-  4. 
+  1. If "this" is in the global scope of the function then it will be what is in the browsers window, or the window object.
+  2. If you call a function using a . operator then the object is "this"
+  3. "this" will call a unique object when using a constructor
+  4. when "this" is used with an => it keeps the same value of its parent.
 */
 
 
